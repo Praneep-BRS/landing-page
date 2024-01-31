@@ -31,4 +31,4 @@ The page randomly changes background images every time it is refreshed, providin
 
 Users have the option to change the theme of the landing page from the footer section, adding a personalized touch to the user experience.
 
-### Live Hosted link [here]()
+### Live Hosted link [here](https://praneep-brs.github.io/landing-page/)
