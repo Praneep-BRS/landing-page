@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS landing page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header role="header" class="header">
+      <div class="heading">
+        <h2>Landing page</h2>
+        <p>
+          Purpose: A simple landing page, where you can enter a name and it
+          displays. Refresh to switch the background and affirmation.
+        </p>
+      </div>
+      <a href="https://github.com/Praneep-BRS/landing-page" target="_blank">
+        Git Repo
+      </a>
+    </header>
+    <!--Main-->
+    <main>
+      <div class="bg">
+        <div class="text-container">
+          <div class="text-header">
+            <h2 id="date-string">1:10:25 PM</h2>
+            <div class="sub-string">
+              <p>Good Afternoon,</p>
+              <input type="text" value="[ENTER NAME]" />
+            </div>
+          </div>
+          <div class="text-footer">
+            <p>Affirmation of the Day</p>
+            <span>I am capable of achieving my goals.</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer>
+      <ul class="color-palette">
+        <li class="palette-box" onclick="setTheme('#1a4b84')"></li>
+        <li class="palette-box" onclick="setTheme('#991e14')"></li>
+        <li class="palette-box" onclick="setTheme('#fead06')"></li>
+      </ul>
+    </footer>
+  </body>
+</html>
